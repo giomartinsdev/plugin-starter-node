@@ -38,7 +38,7 @@ printf '%s\n' \
   achar o seu `id`.
 - O plugin nunca recebe o token do Discord.
 
-Veja [`PROTOCOL.md`](https://github.com/giomartinsdev/discord-plugin-platform/blob/main/PROTOCOL.md).
+O spec completo do protocolo (`PROTOCOL.md`) fica no repositório da plataforma, `giomartinsdev/discord-plugin-platform` (privado).
 
 ## Por que a fila de promises
 
