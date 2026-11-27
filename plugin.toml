@@ -1,0 +1,20 @@
+name = "contador"
+display_name = "Contador"
+version = "1.0.0"
+description = "Plugin de exemplo em Node: conta quantas vezes cada membro usou o comando."
+lang = "javascript"
+
+capabilities = ["reply", "kv"]
+
+[[commands]]
+name = "contar"
+description = "Conta mais um para você"
+
+[[commands]]
+name = "contagem"
+description = "Mostra quantas vezes você usou"
+
+[runtime]
+kind = "process"
+cmd = ["node", "main.js"]
+timeout_ms = 3000
